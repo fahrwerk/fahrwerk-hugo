@@ -1,0 +1,195 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+
+@media only screen and (max-width: 760px) {
+  .img-groesse {
+	  max-width: 20% !important;
+  }
+    .kein-float
+    {
+        float: none !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (min-width: 1500px) {
+    .menu-schriftgroeße-desktop {
+        font-size: 1.4em !important;
+    }
+    #padding-anpassung-1
+    {
+        padding: 100px 60px !important;
+    }
+    #padding-anpassung
+    {
+        padding: 100px 60px !important;
+    }
+
+    .header-icons-tel
+    {
+        background-color: #171a1a;
+    }
+
+    .header-icons-tel:hover
+    {
+        background-color: transparent;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .header-icons-tel
+    {
+        background-color: #171a1a;
+    }
+
+    .header-icons-tel:hover
+    {
+        background-color: transparent;
+    }
+}
+
+.secondary-color
+{
+    color: #171a1a !important;
+}
+
+.primary-color
+{
+    color: #ffd918 !important;
+}
+
+.secondary-color-background
+{
+    background-color: #171a1a !important;
+}
+
+.primary-color-background
+{
+    background-color: #ffd918 !important;
+}
+
+.header-icons
+{
+    background-color: #3C5A99;
+}
+
+.header-icons:hover
+{
+    background-color: transparent;
+}
+
+.header-icons-insta
+{
+    background-color: #e95950;
+}
+
+.header-icons-insta:hover
+{
+    background-color: transparent;
+}
+
+.white-background
+{
+    background-color: #fff !important;
+}
+
+.header-strich
+{
+    border-right: 1px solid white !important;
+}
+
+#header-strich-links
+{
+    border-left: 1px solid white !important;
+}
+
+.scroll-down {
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: 50%;
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 9;
+    opacity: .8;
+}
+.scroll-mouse {
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 46px;
+    margin: 0 auto;
+    border: 2px solid #ffd918;
+    border-radius: 20px;
+}
+.scroll-wheel {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    width: 4px;
+    height: 4px;
+    background-color: #ffd918;
+    border-radius: 50%;
+    -webkit-animation: scrollDown 2.5s infinite;
+    animation: scrollDown 2.5s infinite;
+}
+
+@-webkit-keyframes scrollDown {
+    0% {
+        top: 10px;
+        opacity: 0;
+    }
+    15% {
+        top: 10px;
+        opacity: 1;
+    }
+    30% {
+        top: 10px;
+        opacity: 1;
+    }
+    45% {
+        top: 28px;
+        opacity: 1;
+    }
+    100% {
+        top: 28px;
+        opacity: 0;
+    }
+}
+@keyframes scrollDown {
+    0% {
+        top: 10px;
+        opacity: 0;
+    }
+    15% {
+        top: 10px;
+        opacity: 1;
+    }
+    30% {
+        top: 10px;
+        opacity: 1;
+    }
+    45% {
+        top: 28px;
+        opacity: 1;
+    }
+    100% {
+        top: 28px;
+        opacity: 0;
+    }
+}
+
+
+

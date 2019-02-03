@@ -1,0 +1,126 @@
+{{ define "main" }}
+<section id="page-title" class="page-title-parallax page-title-dark page-title-center" style="background: url(/images/Fahrwerk_Probeshooting_2901.jpg) no-repeat center center / cover; padding: 140px 0;" data-center="background-position: 0px 50%;" data-top-bottom="background-position:0px 0px;">
+
+    <div class="container clearfix">
+        <h1>Kontaktier uns</h1>
+    </div>
+
+    <div class="video-wrap" style="position: absolute; top: 0; left: 0; height: 100%; z-index:1;">
+        <div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
+    </div>
+
+</section><!-- #page-title end -->
+
+<section id="content" class="secondary-color-background">
+
+        <div class="section notopmargin bottommargin-lg nopadding dark clearfix secondary-color-background">
+            <div class="nobg font-serif center" style="padding: 60px 0">
+                <h3 class="container clearfix nobottommargin primary-color">
+                    Wir sind gerade nicht im Büro anwesend, unsere Büro-Öffnungszeiten sind:<br>
+                    Mo - Fr von 9:00 - 17:30 Uhr
+                </h3>
+            </div>
+        </div>
+
+        <div class="container clearfix">
+
+            <!-- Postcontent
+            ============================================= -->
+            <div class="postcontent nobottommargin">
+
+                <h3>Sende uns eine Email</h3>
+
+                <div class="contact-widget">
+
+                    <div class="contact-form-result"></div>
+
+                    <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post">
+
+                        <div class="form-process"></div>
+
+                        <div class="col_one_third">
+                            <label for="template-contactform-name">Name <small>*</small></label>
+                            <input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+                        </div>
+
+                        <div class="col_one_third">
+                            <label for="template-contactform-email">Email <small>*</small></label>
+                            <input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="col_two_third">
+                            <label for="template-contactform-subject">Betreff <small>*</small></label>
+                            <input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
+                        </div>
+
+                        <div class="col_one_third col_last">
+                            <label for="template-contactform-service">Thema</label>
+                            <select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+                                <option value="">-- Thema wählen --</option>
+                                <option value="Wordpress">Indoor</option>
+                                <option value="PHP / MySQL">Outdoor</option>
+                                <option value="HTML5 / CSS3">Burger</option>
+                                <option value="Graphic Design">Golf</option>
+                                <option value="Graphic Design">Events</option>
+                                <option value="Graphic Design">Kids Karting</option>
+                            </select>
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="col_full">
+                            <label for="template-contactform-message">Nachricht <small>*</small></label>
+                            <textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+                        </div>
+
+                        <div class="col_full hidden">
+                            <input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+                        </div>
+
+                        <div class="col_full">
+                            <button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Email verschicken</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div><!-- .postcontent end -->
+
+            <!-- Sidebar
+            ============================================= -->
+            <div class="sidebar col_last nobottommargin">
+
+                <address>
+                    <strong>Anschschriften:</strong><br><br>
+                    FAHR•WERK KARTBAHN GMBH<br>
+                    Waldstraße 79 L<br>
+                    64846 Groß-Zimmern<br><br>
+                    OUTDOOR-STRECKE ODENWALDRING<br>
+                    Eichenweg 80<br>
+                    64850 Schaafheim<br>
+                </address>
+                <abbr title="Phone Number"><strong>Telefon:</strong></abbr> +49(0) 6071-951122<br>
+                <abbr title="Email Address"><strong>Email:</strong></abbr> info@fahrwerk.de
+
+                <div class="widget noborder notoppadding">
+
+                    <a href="https://de-de.facebook.com/fahrwerk.kult/" class="social-icon si-small si-dark si-facebook">
+                        <i class="icon-facebook"></i>
+                        <i class="icon-facebook"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/fahrwerk.kart.golf/" class="social-icon si-small si-dark si-twitter">
+                        <i class="icon-twitter"></i>
+                        <i class="icon-twitter"></i>
+                    </a>
+
+                </div>
+
+            </div><!-- .sidebar end -->
+
+        </div>
+
+</section><!-- #content end -->
+{{ end }}
