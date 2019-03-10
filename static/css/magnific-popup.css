@@ -28,7 +28,9 @@
 	left: 0;
 	top: 0;
 	padding: 0 8px;
-	box-sizing: border-box; }
+	box-sizing: border-box;
+	background: url("/images/Fahrwerk_Probeshooting_2904.jpg");
+	background-size: cover ; }
 
 .mfp-container:before {
 	content: '';
@@ -112,7 +114,7 @@ button.mfp-close,
 button.mfp-arrow {
 	overflow: visible;
 	cursor: pointer;
-	background: transparent;
+	background: #171a1a;
 	border: 0;
 	-webkit-appearance: none;
 	display: block;
@@ -127,8 +129,8 @@ button::-moz-focus-inner {
 	border: 0; }
 
 .mfp-close {
-	width: 44px;
-	height: 44px;
+	width: 60px;
+	height: 60px;
 	line-height: 44px;
 	position: absolute;
 	right: 0;
@@ -139,7 +141,7 @@ button::-moz-focus-inner {
 	padding: 0 0 18px 10px;
 	color: #FFF;
 	font-style: normal;
-	font-size: 28px;
+	font-size: 70px;
 	font-family: Arial, Baskerville, monospace; }
 	.mfp-close:hover,
 	.mfp-close:focus {
@@ -148,7 +150,7 @@ button::-moz-focus-inner {
 		top: 1px; }
 
 .mfp-close-btn-in .mfp-close {
-	color: #333; }
+	color: #ffd918; }
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {

@@ -72,8 +72,8 @@
 .story-box .story-box-info {
 	box-sizing: border-box;
 	width: 50%;
-	height: 430px;
-	padding: 60px;
+	height: 450px;
+	padding: 30px;
 	margin: 35px 0 0 -20%;
 	background: #171a1a;
 	z-index: 4;
@@ -90,10 +90,10 @@
 }
 
 .story-box .story-box-info .story-title {
-	font-family: 'Playfair Display';
-	font-size: 26px;
+	font-family: fahrwerk-schrift, Arial, Helvetica, sans-serif;
+	font-size: 24px;
 	line-height: 1.4;
-	font-weight: 700;
+	font-weight: 400;
 	letter-spacing: 0;
 	color: #ffd918;
 }
@@ -106,7 +106,7 @@
 }
 
 .story-box .story-box-info .story-box-content a {
-	font-size: 16px;
+	font-size: 14px;
 	text-decoration: none !important;
 }
 

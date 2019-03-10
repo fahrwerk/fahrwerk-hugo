@@ -68,7 +68,7 @@
 	#primary-menu ul li > a > div:after {
 		opacity: 0;
 		content: '';
-		background : url('/images/border.svg') no-repeat;
+		background : url('images/border.svg') no-repeat;
 		position: absolute;
 		bottom: -3px;
 		left: 0;
@@ -81,7 +81,7 @@
 		transition: all .3s ease;
 	}
 
-	.dark #primary-menu ul li > a > div:after { background : url('/images/border-white.svg') no-repeat; }
+	.dark #primary-menu ul li > a > div:after { background : url('images/border-white.svg') no-repeat; }
 
 	#primary-menu ul li.active > a > div:after,
 	#primary-menu ul li:hover > a > div:after {
@@ -212,7 +212,7 @@
 
 .button-link:after {
 	content: '';
-	background : url('/images/border.svg') no-repeat;
+	background : url('images/border.svg') no-repeat;
 	position: absolute;
 	bottom: 0px;
 	left: 0;

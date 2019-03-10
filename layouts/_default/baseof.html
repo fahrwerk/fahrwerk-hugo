@@ -2,60 +2,66 @@
 <html>
 <head>
 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="SemiColonWeb" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="SemiColonWeb"/>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+
     <!-- Stylesheets
     ============================================= -->
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:300,400,500,700|Rubik:400,600" rel="stylesheet">
-    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="/css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="/css/custom.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Roboto:300,400,500,700|Rubik:400,600"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/dark.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/custom.css" type="text/css"/>
 
     <!-- Real Estate Demo Specific Stylesheet -->
-    <link rel="stylesheet" href="/css/real-estate/real-estate.css" type="text/css" />
-    <link rel="stylesheet" href="/css/real-estate/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="/css/real-estate/real-estate.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/real-estate/font-icons.css" type="text/css"/>
     <!-- / -->
 
-    <link rel="stylesheet" href="/css/business/business.css" type="text/css" />
-    <link rel="stylesheet" href="/css/headphones/headphones.css" type="text/css" />
+    <link rel="stylesheet" href="/css/business/business.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/headphones/headphones.css" type="text/css"/>
 
-    <link rel="stylesheet" href="/css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="/css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="/css/font-icons.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/animate.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css"/>
 
-    <link rel="stylesheet" href="/css/real-estate/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="/css/real-estate/fonts.css" type="text/css"/>
 
     <!-- Home Demo Specific Stylesheet -->
-    <link rel="stylesheet" href="/css/interior-design/interior-design.css" type="text/css" />
-    <link rel="stylesheet" href="/css/app-landing/app-landing.css" type="text/css" />
-    <link rel="stylesheet" href="/css/articles/articles.css" type="text/css" />
-    <link rel="stylesheet" href="/css/barber/barber.css" type="text/css" />
-    <link rel="stylesheet" href="/css/car.css" type="text/css" />
+    <link rel="stylesheet" href="/css/interior-design/interior-design.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/app-landing/app-landing.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/articles/articles.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/barber/barber.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/car.css" type="text/css"/>
 
-    <link rel="stylesheet" href="/css/interior-design/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="/css/interior-design/fonts.css" type="text/css"/>
 
     <!-- Bootstrap Select CSS -->
-    <link rel="stylesheet" href="/css/components/bs-select.css" type="text/css" />
+    <link rel="stylesheet" href="/css/components/bs-select.css" type="text/css"/>
 
     <!-- Bootstrap Switch CSS -->
-    <link rel="stylesheet" href="/css/components/bs-switches.css" type="text/css" />
+    <link rel="stylesheet" href="/css/components/bs-switches.css" type="text/css"/>
 
     <!-- Range Slider CSS -->
-    <link rel="stylesheet" href="/css/components/ion.rangeslider.css" type="text/css" />
+    <link rel="stylesheet" href="/css/components/ion.rangeslider.css" type="text/css"/>
 
-    <link rel="stylesheet" href="/css/responsive.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/responsive.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!--[if lt IE 9]>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" href="/css/colors.css" type="text/css" />
-    <link rel="stylesheet" href="/css/colors-rtl.css" type="text/css" />
+    <link rel="stylesheet" href="/css/colors.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/colors-rtl.css" type="text/css"/>
+
+    {{ block "styles" . }}{{ end }}
 
     <!-- Document Title
     ============================================= -->
-    <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    <title>Fahrwerk - {{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
 </head>
 
@@ -93,18 +99,28 @@
                 <div class="quick-contact-form-result"></div>
                 <div class="bottommargin-sm">
 
-                    <abbr title="Phone Number" class="text-white"><strong>Telefon:</strong></abbr> <a href="tel:06071-951122" class="text-white">+49(0) 6071-951122 </a><br>
-                    <abbr title="Email Address" class="text-white"><strong>Email:</strong></abbr> <a href="mailto:info@fahrwerk.de" class="text-white">info@fahrwerk.de</a>
+                    <abbr title="Phone Number" class="text-white"><strong>Telefon:</strong></abbr> <a
+                            href="tel:06071-951122" class="text-white">+49(0) 6071-951122 </a><br>
+                    <abbr title="Email Address" class="text-white"><strong>Email:</strong></abbr> <a
+                            href="mailto:info@fahrwerk.de" class="text-white">info@fahrwerk.de</a>
 
                 </div>
                 <h3>Kontaktier uns</h3>
-                <form id="quick-contact-form" name="quick-contact-form" action="include/quickcontact.php" method="post" class="quick-contact-form nobottommargin">
+                <form id="quick-contact-form" name="quick-contact-form" action="include/quickcontact.php" method="post"
+                      class="quick-contact-form nobottommargin">
                     <div class="form-process"></div>
-                    <input type="text" class="required sm-form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Nachname, Vorname" />
-                    <input type="text" class="required sm-form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email" />
-                    <textarea class="required sm-form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Nachricht"></textarea>
-                    <input type="text" class="hidden" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
-                    <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-3d nomargin" value="submit">Email versenden</button>
+                    <input type="text" class="required sm-form-control input-block-level" id="quick-contact-form-name"
+                           name="quick-contact-form-name" value="" placeholder="Nachname, Vorname"/>
+                    <input type="text" class="required sm-form-control email input-block-level"
+                           id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email"/>
+                    <textarea class="required sm-form-control input-block-level short-textarea"
+                              id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30"
+                              placeholder="Nachricht"></textarea>
+                    <input type="text" class="hidden" id="quick-contact-form-botcheck"
+                           name="quick-contact-form-botcheck" value=""/>
+                    <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit"
+                            class="button button-small button-3d nomargin" value="submit">Email versenden
+                    </button>
                 </form>
 
             </div>
@@ -154,6 +170,7 @@
 ============================================= -->
 <script src="/js/jquery.js"></script>
 <script src="/js/plugins.js"></script>
+<script src="/js/custom.js"></script>
 
 <!-- Google Map JavaScripts
 ============================================= -->
@@ -171,9 +188,11 @@
 
 <script src="/js/functions.js"></script>
 
+{{ block "scripts" . }}{{ end }}
+
 <script>
 
-    jQuery(document).ready(function(){
+    jQuery(document).ready(function () {
 
         $(".price-range-slider").ionRangeSlider({
             type: "double",
@@ -205,25 +224,25 @@
         items: 1,
         margin: 60,
         nav: true,
-        navText: ['<i class="icon-line-arrow-left"></i>','<i class="icon-line-arrow-right"></i>'],
+        navText: ['<i class="icon-line-arrow-left"></i>', '<i class="icon-line-arrow-right"></i>'],
         dots: false,
         stagePadding: 30,
-        responsive:{
-            768: { items: 2 },
-            1200: { stagePadding: 200 }
+        responsive: {
+            768: {items: 2},
+            1200: {stagePadding: 200}
         },
     });
 </script>
 
 <script>
-    jQuery(document).ready( function($){
+    jQuery(document).ready(function ($) {
 
         /* Pricing Switcher */
-        function pricingSwitcher( elementCheck, elementParent, elementPricing ) {
+        function pricingSwitcher(elementCheck, elementParent, elementPricing) {
             elementParent.find('.pts-left,.pts-right').removeClass('pts-switch-active');
             elementPricing.find('.pts-switch-content-left,.pts-switch-content-right').addClass('hidden');
 
-            if( elementCheck.filter(':checked').length > 0 ) {
+            if (elementCheck.filter(':checked').length > 0) {
                 elementParent.find('.pts-right').addClass('pts-switch-active');
                 elementPricing.find('.pts-switch-content-right').removeClass('hidden');
             } else {
@@ -232,28 +251,24 @@
             }
         }
 
-        $('.pts-switcher').each( function(){
+        $('.pts-switcher').each(function () {
             var element = $(this),
                 elementCheck = element.find(':checkbox'),
                 elementParent = $(this).parents('.pricing-tenure-switcher'),
-                elementPricing = $( elementParent.attr('data-container') );
+                elementPricing = $(elementParent.attr('data-container'));
 
-            pricingSwitcher( elementCheck, elementParent, elementPricing );
+            pricingSwitcher(elementCheck, elementParent, elementPricing);
 
-            elementCheck.on( 'change', function(){
-                pricingSwitcher( elementCheck, elementParent, elementPricing );
+            elementCheck.on('change', function () {
+                pricingSwitcher(elementCheck, elementParent, elementPricing);
             });
         });
 
-        $('[data-pricing-plan]').click( function(){
-            getStartedForm.find('#get-started-form-package').val( $(this).attr('data-pricing-plan') );
-            getStartedForm.find('#modal-get-started-package').html( $(this).attr('data-pricing-plan') );
+        $('[data-pricing-plan]').click(function () {
+            getStartedForm.find('#get-started-form-package').val($(this).attr('data-pricing-plan'));
+            getStartedForm.find('#modal-get-started-package').html($(this).attr('data-pricing-plan'));
         });
 
-    });
-
-    jQuery(window).on( 'load', function(){
-        $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
     });
 </script>
 

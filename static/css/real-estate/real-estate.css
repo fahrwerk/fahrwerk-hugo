@@ -49,7 +49,7 @@
 		color: #222;
 	}
 
-	.top-links li a { font-family: 'Rubik'; }
+	.top-links li a { font-family: fahrwerk-schrift, Arial, Helvetica, sans-serif;; }
 
 	#primary-menu ul li > a {
 		padding-top: 29px;
