@@ -13,7 +13,7 @@ date: 2018-02-12T15:37:57+07:00
 
 <section id="content" class="secondary-color-background">
 
-        <div class="section notopmargin bottommargin-lg nopadding dark clearfix secondary-color-background">
+        <div id="office-closed" style="display:none" class="section notopmargin nopadding dark clearfix secondary-color-background">
             <div class="nobg font-serif center" style="padding: 60px 0">
                 <h3 class="container clearfix nobottommargin primary-color">
                     Wir sind gerade nicht im Büro anwesend, unsere Büro-Öffnungszeiten sind:<br>
@@ -22,7 +22,19 @@ date: 2018-02-12T15:37:57+07:00
             </div>
         </div>
 
-        <div class="container clearfix">
+    <script type="text/javascript">
+        (function() {
+            var time = new Date();
+            var open = new Date(time.getFullYear(), time.getMonth(), time.getDate(), 9, 0);
+            var close = new Date(time.getFullYear(), time.getMonth(), time.getDate(), 17, 30);
+
+            if (time.getTime() > close.getTime() || time.getTime() < open.getTime()) {
+                document.getElementById("office-closed").style.display = "block";
+            }
+        })();
+    </script>
+
+        <div class="container topmargin-lg clearfix">
 
             <!-- Postcontent
             ============================================= -->
