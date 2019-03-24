@@ -160,6 +160,16 @@ and (max-width: 1570px){
     background-color: #171a1a !important;
 }
 
+.azzent-color
+{
+    color: #E94F37 !important;
+}
+
+.azzent-color-background
+{
+    background-color: #E94F37 !important;
+}
+
 .primary-color-background
 {
     background-color: #ffd918 !important;
