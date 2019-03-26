@@ -7,8 +7,18 @@
 
 /*Fahrwerk Schrift */
 
-@font-face { font-family: 'fahrwerk-schrift';
-    src: url("/css/fonts/FF-QTypeSquare-Light") format('truetype'); }
+@font-face {
+    font-family: "QTypeSquare-Light";
+    src: url("./fonts/QTSqLt.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/QTSqLt.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/QTSqLt.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/QTSqLt.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/QTSqLt.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/QTSqLt.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/QTSqLt.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
 
 @media only screen
 and (min-width : 768px)
