@@ -165,7 +165,7 @@ nav.custom-hero-nav { display: none; }
 	letter-spacing: 1px;
 	font-weight: 400;
 	color: #bF9456;
-	font-family: 'PT Sans Caption';
+	font-family: 'QTypeSquare-Light';
 }
 
 .price-dots {
@@ -185,7 +185,7 @@ nav.custom-hero-nav { display: none; }
 	padding-left: 10px;
 	font-size: 20px;
 	font-weight: 700;
-	font-family: 'PT Serif', serif;
+	font-family: 'QTypeSquare-Light';
 }
 
 p.price-desc {
