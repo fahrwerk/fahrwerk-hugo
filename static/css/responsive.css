@@ -1052,7 +1052,6 @@
 	}
 
 	.top-links,
-	.top-links > ul > li { float: none !important; }
 
 	.top-links > ul { text-align: center; }
 
