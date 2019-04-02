@@ -215,9 +215,20 @@ and (max-width: 1570px){
     border-right: 1px solid white !important;
 }
 
-#header-strich-links
+.top-links ul li.header-strich-links
 {
     border-left: 1px solid white !important;
+}
+
+.top-links .header-icons-flag
+{
+    padding: 0;
+}
+
+.top-links .flag-icon
+{
+    background-size: cover;
+    margin: 0 !important;
 }
 
 .scroll-down {

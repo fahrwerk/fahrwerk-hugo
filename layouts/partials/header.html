@@ -10,7 +10,10 @@
             ============================================= -->
             <div class="top-links">
                 <ul>
-                    <li id="header-strich-links" class="header-strich"><a class="header-icons" style="font-size: 18px;color: white !important;" href="https://de-de.facebook.com/fahrwerk.kult/" target="_blank"><i class="icon-facebook"></i></a></li>
+                    {{ range $.Site.Home.AllTranslations }}
+                        <li class="header-strich-links"><a class="header-icons-flag" style="font-size:44px;" href="{{ .Permalink }}"><i class="flag-icon flag-icon-{{ .Language.Lang }}"></i></a></li>
+                    {{ end }}
+                    <li class="header-strich header-strich-links"><a class="header-icons" style="font-size: 18px;color: white !important;" href="https://de-de.facebook.com/fahrwerk.kult/" target="_blank"><i class="icon-facebook"></i></a></li>
                     <li class="header-strich"><a class="header-icons-insta" style="font-size: 18px; color: white !important;" href="https://www.instagram.com/fahrwerk.kart.golf/" target="_blank"><i class="icon-instagram"></i></a></li>
                     <li class="d-lg-block header-strich"><a style="color: white !important;" class="header-icons-tel" href="#"><i class="icon-call"></i> 06071-951122</a></li>
                     <li class="header-strich"><a class="header-icons-tel" style="font-size: 18px;color: white !important;" href="mailto:fahrwerk@fahrwerk.de"><i class="icon-email3"></i></a></li>
