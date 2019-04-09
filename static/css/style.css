@@ -172,7 +172,7 @@ a {
 	color: #1ABC9C;
 }
 
-a:hover { color: #222; }
+a:hover { color: #E94F37; }
 
 a img { border: none; }
 
@@ -11853,7 +11853,7 @@ button.toast-close-button {
 #footer {
 	position: relative;
 	background-color: #EEE;
-	border-top: 1px solid rgba(0,0,0,0.2);
+	border-top: 1px solid white;
 }
 
 .device-xl.sticky-footer #top-bar,
