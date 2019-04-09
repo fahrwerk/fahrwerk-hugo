@@ -20,6 +20,26 @@
     font-style: normal;
 }
 
+/*Handy bis 375px */
+@media only screen
+and (max-width : 376px) {
+
+    .menu-top
+    {
+        padding: 0 8.8px !important;
+    }
+}
+
+@media only screen
+and (min-width : 377px)
+and (max-width : 760px) {
+
+    .menu-top
+    {
+        padding: 0 28px !important;
+    }
+}
+
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px) {
