@@ -28,8 +28,13 @@ and (max-width : 376px) {
     {
         padding: 0 8.8px !important;
     }
-}
 
+    .newsletter-button
+    {
+        font-size: 0.7rem !important;
+    }
+}
+/*Handy ab 375px */
 @media only screen
 and (min-width : 377px)
 and (max-width : 760px) {
@@ -38,7 +43,23 @@ and (max-width : 760px) {
     {
         padding: 0 28px !important;
     }
+    .newsletter-button
+    {
+        font-size: 0.9rem !important;
+    }
 }
+
+/*Handy bis 320px */
+@media only screen
+and (max-width : 320px) {
+
+    .newsletter-button
+    {
+        font-size: 0.7rem !important;
+        padding: 0 8px !important;
+    }
+}
+
 
 @media only screen
 and (min-width : 768px)
