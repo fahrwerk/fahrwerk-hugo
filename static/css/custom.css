@@ -81,6 +81,11 @@ and (max-width : 1024px) {
         float: none !important;
     }
 
+    .facebook-button
+    {
+        padding: 0 18px !important;
+    }
+
     .menu-home
     {
         padding-left: 0px !important;
