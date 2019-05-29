@@ -35,9 +35,9 @@
 .section-features .card {
 	border: 0;
 	overflow: hidden;
-	background: #FFF;
+	background: #171a1a;
   	background-clip: padding-box;
-	box-shadow: 0 0 35px rgba(140, 152, 164, 0.2);
+	/* box-shadow: 0 0 5px rgba(140, 152, 164, 0.2);*/
 }
 
 .section-features .card:before {
@@ -51,12 +51,12 @@
     margin-bottom: 0;
     height: 3px;
     width: 100%;
-    background: linear-gradient(to right, blue, lightblue);
+	/* background: linear-gradient(to right, blue, lightblue) */;
 }
 
-.section-features .card.border-color-pink:before { background: linear-gradient(to right, red, pink); }
-.section-features .card.border-color-yellow:before { background: linear-gradient(to right, teal, cyan); }
-.section-features .card.border-color-info:before { background: linear-gradient(to right, #111, #DDD); }
+.section-features .card.border-color-pink:before {/* background: linear-gradient(to right, red, pink); */}
+.section-features .card.border-color-yellow:before {/* background: linear-gradient(to right, teal, cyan); */}
+.section-features .card.border-color-info:before {/* background: linear-gradient(to right, #111, #DDD); */}
 
 body:not(.dark) .section-scroller {
 	background-image: linear-gradient(to top, rgba(241,244,248,.5), rgba(241,244,248,.5) 30%, #FFF 30%);

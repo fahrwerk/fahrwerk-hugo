@@ -7462,12 +7462,12 @@ body:not(.device-touch) .button.button-full strong {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-bottom: 0;
-	color: #333;
+	color: #ffd918;
 }
 
 .feature-box p {
 	margin: 8px 0 0 0;
-	color: #171a1a;
+	color: white;
 }
 
 .feature-box .before-heading { font-size: 14px; }

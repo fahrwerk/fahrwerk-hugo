@@ -112,6 +112,15 @@ and (max-width : 1024px) {
     {
         padding: 0 19% !important;
     }
+
+    .burgerkarte
+    {
+        font-size: 12px !important;
+    }
+    .burgerkarte-2
+    {
+        font-size: 15px !important;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -279,6 +288,11 @@ and (max-width: 1570px){
 .top-links .header-icons-flag
 {
     padding: 0;
+}
+
+.indoor-preise
+{
+    padding-bottom: 10px !important;
 }
 
 .top-links .flag-icon
