@@ -1,5 +1,5 @@
 #baseURL = "http://fahrwerk.de"
-languageCode = "de-de"
+languageCode = "de-DE"
 title = "Fahrwerk"
 
 DefaultContentLanguage = "de"

@@ -10,7 +10,7 @@
             ============================================= -->
             <div class="top-links">
                 <ul>
-                    {{ range $.Site.Home.AllTranslations }}
+                    {{ range .AllTranslations }}
                         <li class="header-strich-links"><a class="header-icons-flag" style="font-size:44px;" href="{{ .Permalink }}"><i class="flag-icon flag-icon-{{ .Language.Lang }}"></i></a></li>
                     {{ end }}
                     <li class="header-strich header-strich-links"><a class="header-icons" style="font-size: 18px;color: white !important;" href="https://de-de.facebook.com/fahrwerk.kult/" target="_blank"><i class="icon-facebook"></i></a></li>

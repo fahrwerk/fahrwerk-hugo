@@ -1,0 +1,50 @@
+[bestTime]
+other = "Erlebe deine beste Zeit"
+
+[businessArea]
+other = "Zum Businessbereich"
+
+[singleDriver]
+other = "EINZELFAHRTEN"
+
+[groupOffers]
+other = "GRUPPENPAKETE"
+
+[race]
+other = "Rennen"
+
+[driver]
+other = "Fahrer"
+
+[telBooking]
+other = "Telefonische Buchung unter 06071951122 erforderlich!"
+
+[varyingOpening]
+other = "Die Öffnungszeiten variieren je nach Buchungslage."
+
+[onRequest]
+other = "auf Anfrage"
+
+[opened]
+other = "geöffnet"
+
+[closed]
+other = "geschlossen"
+
+[readMore]
+other = "Mehr Erfahren"
+
+[sendRequest]
+other = "Anfrage stellen!"
+
+[lendingKart]
+other = "Leihkarts"
+
+[ownKart]
+other = "Eigenkartbetrieb"
+
+[birthday]
+other = "Geburtstag"
+
+[perChild]
+other = "pro Kind"

@@ -1,0 +1,44 @@
+[bestTime]
+other = "Experience your best time"
+
+[businessArea]
+other = "Business area"
+
+[singleDriver]
+other = "SINGLE DRIVER"
+
+[groupOffers]
+other = "GROUP OFFERS"
+
+[race]
+other = "Race"
+
+[driver]
+other = "Drivers"
+
+[telBooking]
+other = "Booking by telephone required. Call 06071951122"
+
+[varyingOpening]
+other = "Opening times vary by booking situation."
+
+[onRequest]
+other = "on Request"
+
+[opened]
+other = "open"
+
+[closed]
+other = "closed"
+
+[readMore]
+other = "Read more"
+
+[sendRequest]
+other = "Book now!"
+
+[lendingKart]
+other = "Lending kart"
+
+[ownKart]
+other = "Your own kart"
