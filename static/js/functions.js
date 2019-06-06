@@ -2346,17 +2346,17 @@ var SEMICOLON = SEMICOLON || {};
 				$tabs.each( function(){
 					var element = $(this),
 						elementSpeed = element.attr('data-speed'),
-						tabActive = element.attr('data-active');
+						tabActive = Number(element.attr('data-active'));
 
 					if( !elementSpeed ) { elementSpeed = 400; }
 					if( !tabActive ) { tabActive = 0; } else { tabActive = tabActive - 1; }
 
-					var windowHash = window.location.hash;
+					/*var windowHash = window.location.hash;
 					if( jQuery(windowHash).length > 0 ) {
 						var windowHashText = windowHash.split('#'),
 							tabItem = document.getElementById( windowHashText[1] );
 						tabActive = jQuery( ".tab-content" ).index( tabItem );
-					}
+					}*/
 
 					element.tabs({
 						active: Number(tabActive),
