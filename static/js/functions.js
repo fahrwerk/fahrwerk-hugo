@@ -2406,7 +2406,6 @@ var SEMICOLON = SEMICOLON || {};
 			}
 
 			var $tabsResponsive = $('.tabs.tabs-responsive');
-			if( $tabsResponsive.length < 1 ) { return true; }
 
 			$tabsResponsive.each( function(){
 				var element = $(this),
