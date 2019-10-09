@@ -2406,6 +2406,7 @@ var SEMICOLON = SEMICOLON || {};
 			}
 
 			var $tabsResponsive = $('.tabs.tabs-responsive');
+			if( $tabsResponsive.length < 1 ) { return true; }
 
 			$tabsResponsive.each( function(){
 				var element = $(this),
@@ -2441,7 +2442,7 @@ var SEMICOLON = SEMICOLON || {};
 				if( $('body').hasClass('device-sm') || $('body').hasClass('device-xs') ) {
 
 					element.find('.tab-nav').addClass('d-none');
-					element.find('.tab-container').addClass('accordion '+ elementAccStyle).attr('data-active', tabActive);
+					element.find('.tab-container').addClass('accordion '+ elementAccStyle +' clearfix').attr('data-active', tabActive);
 					element.find('.tab-content').addClass('acc_content');
 					element.find('.acctitle').removeClass('d-none');
 					SEMICOLON.widget.accordions();
