@@ -2442,10 +2442,10 @@ var SEMICOLON = SEMICOLON || {};
 				if( $('body').hasClass('device-sm') || $('body').hasClass('device-xs') ) {
 
 					element.find('.tab-nav').addClass('d-none');
-					element.find('.tab-container').addClass('accordion '+ elementAccStyle +' clearfix').attr('data-active', tabActive);
+					element.find('.tab-container').addClass('accordion '+ elementAccStyle +' clearfix').attr('data-active', '');
 					element.find('.tab-content').addClass('acc_content');
 					element.find('.acctitle').removeClass('d-none');
-					element.tabs('refresh');
+					SEMICOLON.widget.accordions();
 
 				} else if( $('body').hasClass('device-md') || $('body').hasClass('device-lg') || $('body').hasClass('device-xl') ) {
 
